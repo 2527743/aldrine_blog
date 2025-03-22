@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALDRINE C DEL ROSARIO</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            background-color: #abc497;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 220px; 
+        }
+
+      
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 200px;
+            background-color: #09421f; 
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .container header {
+            text-align: center;
+            padding: 20px;
+            background-color: #a3be9c;
+            margin-bottom: 20px;
+        }
+
+        .container section {
+            padding: 20px;
+            background-color: #a3be9c;
+            margin-bottom: 20px;
+        }
+
+        .container h2 {
+            color: #333;
+        }
+
+
+        button {
+            background-color: #2f5675;
+            color: rgb(219, 202, 202);
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .container img {
+            position: absolute;
+            top: 20px; 
+            right: 20px;
+            width: 150px; 
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #050e05; 
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h1>Aldrine C Del Rosario</h1>
+        <ul>
+            <li>Home</li>
+            <li>About Me</li>
+            <li>Contact</li>
+            <li>Skills</li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <header>
+            <h1>Aldrine C Del Rosario</h1>
+            <p>IT Student</p>
+        </header>
+        <img src="drine.jpg" alt="Profile Picture">
+        <section class="contact">
+            <h2>My Information</h2>
+            <p>Email: aldrinedelrosario48@gmail.com</p>
+            <p>Phone: 09074045287</p>
+            <p>Website: www.aldrine.com</p>
+            <p>Age: 20</p>
+        </section>
+
+        <section class="Hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Cycling</li>
+                <li>Badminton</li>
+                <li>Running</li>
+                <li>Chess</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Science in Information Technology</strong></p>
+            <p>University of PLSP (Pamantasan ng Lungsod ng San Pablo) - 3rd Year student</p>
+        </section>
+
+        <section class="footer">
+            <button onclick="toggleFooter()">Footer</button>
+            <p id="footer-text">Let's get to know me!</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

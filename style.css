@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #206d4d;
+    color: #333;
+    padding: 20px;
+}
+.contact {
+    text-align: center;
+}
+.Hobbies {
+    text-align: center;
+}
+.education {
+    text-align: center;
+}
+.contact img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    }
+.contact img:hover {
+    transform: scale(1.1);
+}
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #1d6e38;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 18px;
+    color: #000000;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 16px;
+    color: #34495e;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+    position: relative;
+}
+
+ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #2980b9;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    border: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+#footer-text {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #070c0c;
+}
